@@ -26,7 +26,7 @@ useEffect(() => {
 const loginHandler = (user, password) => {
   const loggedUser = localStorage.setItem('isLoggedUser', JSON.stringify({
     username: user,
-    isLogged:true
+    isLogged: true
   }))
   setLoggedIn(true)
 }
